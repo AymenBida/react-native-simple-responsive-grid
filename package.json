@@ -2,7 +2,11 @@
   "name": "react-native-simple-responsive-grid",
   "version": "1.0.0",
   "description": "Custom component for creating responsive grid layouts in React Native. Automatically adjusts columns and rows. Specify cell size. Use for mobile or web app",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/AymenBida/react-native-simple-responsive-grid/issues"
   },
-  "homepage": "https://github.com/AymenBida/react-native-simple-responsive-grid#readme"
+  "homepage": "https://github.com/AymenBida/react-native-simple-responsive-grid#readme",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.66.5"
+  }
 }
